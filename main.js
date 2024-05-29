@@ -14,7 +14,7 @@ let image =document.createElement('img')
 let card =document.createElement('div')
 let price =document.createElement("p")
 image.classList.add("Image")
-image.classList.add("card-item")
+card.classList.add("card-item")
 
 image.src=element.image
 console.log(image);
