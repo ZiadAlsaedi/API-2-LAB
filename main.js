@@ -19,7 +19,7 @@ card.classList.add("card-item")
 image.src=element.image
 console.log(image);
  name.innerText=element.title
- price.innerText=element.price
+ price.innerText="Price : " + element.price
  card.append(name)
  card.append(image)
  card.append(price)
